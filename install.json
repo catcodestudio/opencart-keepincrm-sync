@@ -1,0 +1,7 @@
+{
+  "name": "KeepinCRM Sync for OpenCart",
+  "description": "Order sync to KeepinCRM for OpenCart 4.x — pushes each order as an agreement (POST /agreements, X-Auth-Token) on placement or status change. Idempotent (no duplicate agreements via a unique sync journal), retry queue via cron, product/payment/shipping mapping, optional funnel/stage/source/responsible routing, encrypted API token, connection test, and a sync journal with request/response log.",
+  "version": "1.0.0",
+  "author": "CatCode",
+  "link": "https://catcode.com.ua/opencart/keepincrm-sync"
+}
