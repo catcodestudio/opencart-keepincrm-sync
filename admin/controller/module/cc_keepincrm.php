@@ -141,7 +141,7 @@ class CcKeepincrm extends \Opencart\System\Engine\Controller {
 			'code'        => 'cc_keepincrm_order_history_added',
 			'description' => 'CatCode KeepinCRM Sync — push order to KeepinCRM on placement / status change',
 			// OC 4.x fires model events as <route>.<method> (dot before the method).
-			'trigger'     => 'catalog/model/checkout/order.addHistory/after',
+			'trigger'     => 'catalog/model/checkout/order*addHistory/after',
 			'action'      => 'extension/cc_keepincrm/events.orderHistoryAdded',
 			'status'      => 1,
 			'sort_order'  => 20,
